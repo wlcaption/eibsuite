@@ -1,0 +1,26 @@
+#summary One-sentence summary of this page.
+#labels Featured
+
+= Getting Started =
+
+This is a brief description of how to set up the EIB Suite.
+The necessary tools for this tutorial are:
+  * Linux machine (include g++ compiler)
+  * KNX/IP device 
+  * Sheevaplug Plug computer (Optional)
+
+= Details =
+== Build & Install ==
+  # Install subversion on the computer (*sudo apt-get install subversion*)
+  # Install ncurses if not already installed (*sudo apt-get install ncurses*)
+  # Download the EIB Suite source code (*svn checkout https://eibsuite.googlecode.com/svn/trunk/ eibsuite*)
+  # change the the root directory of the project and type: (*make menuconfig*)
+  # In the opened window, make sure that everything is marked and then exit & save.
+  # In terminal type: (*make install*)
+
+When the compilation process is finished, you can find the EIB Suite binaries in the (*<root project>/bin*).
+Now, before you can start and run the different componenets, a little more configuration is required:
+  # Configure the EIBServer module
+  # Configure the WEBServer module
+  # Configure the SMSServer module
+  # Configure the AMXServer module
