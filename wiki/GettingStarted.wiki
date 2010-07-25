@@ -20,7 +20,7 @@ The necessary tools for this tutorial are:
 
 When the compilation process is finished, you can find the EIB Suite binaries in the (*<root project>/bin*).
 Now, before you can start and run the different componenets, a little more configuration is required:
-  # Configure the EIBServer module
+  # [http://code.google.com/p/eibsuite/wiki/EIBServer Configure the EIBServer module]
   # Configure the WEBServer module
   # Configure the SMSServer module
   # Configure the AMXServer module
