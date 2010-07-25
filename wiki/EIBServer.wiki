@@ -1,0 +1,12 @@
+#labels Featured
+#Brief manual of the EIB Server module
+
+= EIB Server =
+
+The EIB Server is the major module in the EIB Suite. this server act as rendezvous for all of the other servers (i.e. SMS Server, WEB Server, Relay Server etc.) 
+
+
+= Configuration =
+The EIB Server uses 2 configuration files:
+  # EIB.conf - this file contains the parameters that allow the EIB Server to connect to the KNX/IP device, and listen for new server wish to gather/control this KNX/IP device
+  # Users.db - this file contains the configuration about the other parts of the suite that wish to connect. this file holds the user names, passwords and some privileges restrictions.
