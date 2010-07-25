@@ -4,9 +4,19 @@
 = EIB Server =
 
 The EIB Server is the *major module* in the EIB Suite. this server act as rendezvous point for all other servers (i.e. SMS Server, WEB Server etc.) 
+----
+== General Description ==
+When EIB Server starts, it uses 2 configuration files:
+  # *EIB.conf* - this file contains the parameters that allow the EIB Server to connect to the KNX/IP device, and listen for new server wish to gather/control this KNX/IP device
+  # *Users.db* - this file contains the configuration about the other parts of the suite that wish to connect. this file holds the user names, passwords and some privileges restrictions.
+these 2 files are essential to EIB Server in order to operate properly. (don't worry, if anything goes wrong, the EIB Server will print an error telling exactly what is the problem).
 
+== Configuration ==
+There are 2 different options to create the configuration files:
+  # *_By HAND_* - this option is probably better since i may have some bugs in the other option :). note that there are templates files that explains the structure of the configuration files in the templates directory of the installation.
+  # Using the *_Interactive Configuration option_*. in this option, the EIB Server will create the files by itself, just asking you (the users) a few key questions.
+   * To create the EIB.conf file - run the following command : *./run.sh EIBServer -i* and follow the screen
+   * To create the Users.db file - run the following command : *./run.sh EIBServer -u* and follow the screen
 
-= Configuration =
-The EIB Server uses 2 configuration files:
-  # EIB.conf - this file contains the parameters that allow the EIB Server to connect to the KNX/IP device, and listen for new server wish to gather/control this KNX/IP device
-  # Users.db - this file contains the configuration about the other parts of the suite that wish to connect. this file holds the user names, passwords and some privileges restrictions.
+== Starting the Server ==
+After both files created successfully, you can type *./run.sh EIBServer* to start the EIB Server itself.
