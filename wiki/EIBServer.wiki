@@ -3,7 +3,7 @@
 
 = EIB Server =
 
-The EIB Server is the major module in the EIB Suite. this server act as rendezvous for all of the other servers (i.e. SMS Server, WEB Server, Relay Server etc.) 
+The EIB Server is the *major module* in the EIB Suite. this server act as rendezvous point for all other servers (i.e. SMS Server, WEB Server etc.) 
 
 
 = Configuration =
