@@ -1,3 +1,4 @@
+#labels Featured
 = WEB Server =
 
 The WEB Server provide web interface to the KNX/IP bus. the main features of this server are:
