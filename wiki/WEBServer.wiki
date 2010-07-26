@@ -1,0 +1,24 @@
+= WEB Server =
+
+The WEB Server provide web interface to the KNX/IP bus. the main features of this server are:
+  # Viewing History of specific function (Specific KNX Address)
+  # Viewing Global history (the last 100 messages sent on the KNX/IP bus)
+  # Sending specific command to the KNX/IP bus
+  # Scheduling a command for later execution
+
+== General Description ==
+The WEB Server is small & basic WEB interface to the KNX/IP bus. the server supports HTTP basic authentication and provide web interface to several actions for monitoring and controlling the KNX/IP bus.
+
+This server is written entirely in c++ and depends on the EIBStdLib shared object (DLL) which is also part of the EIB Suite.
+
+When the WEB Server starts, it uses 2 configuration files:
+  # *WEB.conf* - this file contains the parameters that allow the WEB Server to connect to the EIB Server.
+  # *WEBUsers.db* - this file contains the configuration about the users the allow to use the web interface. this file holds the user names, passwords and some privileges restrictions.
+these 2 files are essential to WEB Server in order to operate properly. (don't worry, if anything goes wrong, it will print an error telling exactly what is the problem).
+
+== Configuration ==
+There are 2 different options to create the configuration files:
+  # *_Manually_* - this option is probably better since i may have some bugs in the other option :). note that there are templates files that explains the structure of the configuration files in the templates directory of the installation.
+  # *_Interactive Configuration option_* - in this option, the WEB Server will create the files by itself, just asking you (the users) a few key questions.
+   * To create the WEB.conf file - run the following command : *./run.sh WEBServer -i* and follow the screen.
+   * To create the WEBUsers.db file - run the following command : *./run.sh WEBServer -u* and follow the screen.
