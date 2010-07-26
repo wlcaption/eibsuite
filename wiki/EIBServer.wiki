@@ -58,7 +58,7 @@ EIB_IP_ADDRESS = 10.100.1.84
 #'true' the EIB_IP_ADDRESS will be ignored
 AUTO_DETECT_EIB_DEVICE_ADDRESS = false
 
-#The local interface (network card) that will be used for connecting to the EIBNet/IP Device.
+# The local interface (network card) that will be used for connecting to the EIBNet/IP Device.
 # Under windows: this value should be positive integer representing the NIC index (i.e. 0 or 1 or 2 etc.)
 # Under linux: this value should be the interface name (i.e. eth0 or eth1 etc)
 EIB_LOCAL_INTERFACE = eth0
