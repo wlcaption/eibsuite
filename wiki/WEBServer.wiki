@@ -59,5 +59,12 @@ WEB_SERVER_PASSWORD = WEB
 WEB_SERVER_IMAGES_FOLDER = /EIBProject/WEBServer/Images
 }}}
 
+==== WEBUsers.db ====
+{{{
+[USER-NAME]
+
+#the password for this user (Case sensitive)
+PASSWORD = Password
+}}}
 == Starting the Server ==
 After both files created successfully, you can type *./run.sh EIBServer* to start the EIB Server itself.
