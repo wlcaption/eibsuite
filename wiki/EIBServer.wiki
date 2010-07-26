@@ -13,10 +13,10 @@ these 2 files are essential to EIB Server in order to operate properly. (don't w
 
 == Configuration ==
 There are 2 different options to create the configuration files:
-  # *_By HAND_* - this option is probably better since i may have some bugs in the other option :). note that there are templates files that explains the structure of the configuration files in the templates directory of the installation.
-  # Using the *_Interactive Configuration option_*. in this option, the EIB Server will create the files by itself, just asking you (the users) a few key questions.
-   * To create the EIB.conf file - run the following command : *./run.sh EIBServer -i* and follow the screen
-   * To create the Users.db file - run the following command : *./run.sh EIBServer -u* and follow the screen
+  # *_Manually_* - this option is probably better since i may have some bugs in the other option :). note that there are templates files that explains the structure of the configuration files in the templates directory of the installation.
+  # *_Interactive Configuration option_* - in this option, the EIB Server will create the files by itself, just asking you (the users) a few key questions.
+   * To create the EIB.conf file - run the following command : *./run.sh EIBServer -i* and follow the screen.
+   * To create the Users.db file - run the following command : *./run.sh EIBServer -u* and follow the screen.
 
 == Examples ==
 ==== EIB.conf ====
