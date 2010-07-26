@@ -22,28 +22,29 @@ There are 2 different options to create the configuration files:
 ==== EIB.conf ====
 {{{
 [EIB-GENERAL]
-#initial key to encrypt and decrypt the messages required for random keys exchange
+# The initial key to encrypt and decrypt the messages required for random keys exchange.
 EIB_INITIAL_KEY = EIBKEY
 
-#The EIB Server port - the port that EIB Server listens to accept new clients (i.e. WEBServer, SMSServer, AMXServer etc.)
+# The EIB Server port - the port that EIB Server listens to accept new clients (i.e. WEBServer, SMSServer, AMXServer etc.)
 LISTENING_PORT = 5000
 
-#Maximum number of concurrent connected clients
+# Maximum number of concurrent connected clients
 MAX_CONCURRENT_CLIENTS = 10
 
-#the port the the console( GUI program named 'EIBConsole' ) will connect/send requests to the EIB server.
+# The port the the console( GUI program named 'EIBConsole' ) will connect/send requests to the EIB server.
 CONSOLE_MANAGER_PORT = 6000
 
-#This number allows you to set the logging level:
+# This number allows you to set the logging level:
 # 0 - No logging to log files at all
 # 1 - Error Messages are printed to the log files
 # 2 - Error & Info messages are printed to the log files
 # 3 - Error & Info & Debug messages are printed to the log files
 LOG_LEVEL = 3
 
-#The working mode with  EIB Interface
+# The working mode with  EIB Interface. The options are :
 # MODE_ROUTING - Multicast mode
 # MODE_TUNNELING - Unicast mode
+# MODE_BUSMONITOR - Bus monitor mode (beta)
 EIB_DEVICE_MODE = MODE_TUNNELING
 
 # IP Address of EIB Device
