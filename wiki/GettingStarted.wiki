@@ -1,5 +1,5 @@
+#summary a brief description of how to set up the EIB Suite.
 #labels Featured
-a brief description of how to set up the EIB Suite.
 
 = Getting Started =
 
