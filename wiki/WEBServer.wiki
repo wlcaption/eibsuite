@@ -22,3 +22,6 @@ There are 2 different options to create the configuration files:
   # *_Interactive Configuration option_* - in this option, the WEB Server will create the files by itself, just asking you (the users) a few key questions.
    * To create the WEB.conf file - run the following command : *./run.sh WEBServer -i* and follow the screen.
    * To create the WEBUsers.db file - run the following command : *./run.sh WEBServer -u* and follow the screen.
+
+== Starting the Server ==
+After both files created successfully, you can type *./run.sh EIBServer* to start the EIB Server itself.
