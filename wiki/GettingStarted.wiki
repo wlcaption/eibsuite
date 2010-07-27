@@ -24,3 +24,4 @@ Now, before you can start and run the different componenets, a little more confi
   # [http://code.google.com/p/eibsuite/wiki/WEBServer Configure the WEBServer module]
   # Configure the SMSServer module
   # Configure the AMXServer module
+  # Configure the EIBRealy module
