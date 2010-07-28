@@ -38,6 +38,7 @@ RELAY_INITIAL_KEY = EIBKEY
 AUTO_DISCOVER_EIB_SERVER = true
 
 # IP Address of the EIB Server
+# Note: if AUTO_DISCOVER_EIB_SERVER is set to 'true' then this field is not used.
 EIB_SERVER_IP_ADDRESS = 127.0.0.1
 
 #The EIB Server port (the port that EIB Server listens to accept new clients)
