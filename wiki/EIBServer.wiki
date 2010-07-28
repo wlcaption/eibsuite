@@ -29,14 +29,14 @@ LISTENING_PORT = 5000
 # Maximum number of concurrent connected clients
 MAX_CONCURRENT_CLIENTS = 10
 
-# The port the the console( GUI program named 'EIBConsole' ) will connect/send requests to the EIB server.
+# The port in which the EIB Console ( A GUI program named 'EIBConsole' ) will connect/send requests to the EIB server.
 CONSOLE_MANAGER_PORT = 6000
 
 # This number allows you to set the logging level:
-# 0 - No logging to log files at all
-# 1 - Error Messages are printed to the log files
-# 2 - Error & Info messages are printed to the log files
-# 3 - Error & Info & Debug messages are printed to the log files
+# 0 - No logging at all
+# 1 - Error Messages are printed to screen
+# 2 - Error + Info messages are printed to screen
+# 3 - Error + Info + Debug messages are printed to screen
 LOG_LEVEL = 3
 
 # The working mode with  EIB Interface. The options are :
