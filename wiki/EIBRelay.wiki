@@ -1,3 +1,4 @@
+#labels Featured
 = EIB Relay Server =
 
 The Relay Server provides a tunnel connection to the KNX/IP Bus through the EIB Server.
@@ -43,6 +44,13 @@ EIB_SERVER_IP_ADDRESS = 127.0.0.1
 
 #The EIB Server port (the port that EIB Server listens to accept new clients)
 EIB_SERVER_PORT = 5000
+
+# This number allows you to set the logging level:
+# 0 - No logging at all
+# 1 - Error Messages are printed to screen
+# 2 - Error + Info messages are printed to screen
+# 3 - Error + Info + Debug messages are printed to screen
+LOG_LEVEL = 3
 
 #Login name of the AMX server. this name will be used during the authentication with the EIB Server (Case sensitive)
 RELAY_SERVER_NAME = RELAY
