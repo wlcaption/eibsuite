@@ -14,9 +14,9 @@ The necessary tools for this tutorial are:
   # Install subversion on the computer (*sudo apt-get install subversion*)
   # Install ncurses if not already installed (*sudo apt-get install ncurses*)
   # Download the EIB Suite source code (*svn checkout https://eibsuite.googlecode.com/svn/trunk/ eibsuite*)
-  # change the the root directory of the project and type: (*make menuconfig*)
+  # change the the root directory of the project and type: *make menuconfig*
   # In the opened window, make sure that everything is marked and then exit & save.
-  # In terminal type: (*make install*)
+  # In terminal type: *make install*
 
 When the compilation process is finished, you can find the EIB Suite binaries in the (*<root project>/bin*).
 Now, before you can start and run the different componenets, a little more configuration is required:
